@@ -1,0 +1,18 @@
+/* Write your code here: */
+h1,h2{
+    color:blueviolet;
+}
+
+.box p.done {
+    color: red; /* Or any other color you prefer */
+  }
+
+.box .list li:first-child {
+    color: blueviolet; /* Or any other color you prefer */
+  }
+  
+ul p.done{
+    font-size: smaller;
+
+}
+  

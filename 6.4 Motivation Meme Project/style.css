@@ -1,0 +1,31 @@
+body{
+    background-color:black ;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+h2{
+    color: white; 
+}
+.container, div {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to 100% of viewport height */
+    text-align: center;
+}
+
+div{
+    ali
+}
+    img {
+        max-width: 100%; /* Ensure image doesn't exceed container width */
+    
+        border: 5px solid white;
+    }
+    

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+  
+    .blue-box{
+      position: relative;
+      background-color: blue;
+      height: 300px;
+      width: 500px;
+      top: 200px;
+      left: 200px;
+    }
+  .red-circle {
+    position: absolute; /* Set position absolute */
+    top: 150px; /* Position it 150px from the top within the blue box */
+    right: 50px; /* Position it 250px to the right of the blue box */
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%; /* This creates the circular shape */
+  }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>
